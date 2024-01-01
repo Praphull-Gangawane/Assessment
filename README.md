@@ -4,9 +4,14 @@ This repository contains a test suite for the `getHistoricalEvents` function, de
 ## Prerequisites
 
 - Node.js installed on your machine.
+- VS Code should be installed in your machine
+  
 ## Install Dependencies
 - npm install
 
 ## To Run the Test
--Type npm test in Terminal
+
+- Open Project in the VS Code
+- Open terminal with testFile.test.js
+- Type npm test in Terminal
 
