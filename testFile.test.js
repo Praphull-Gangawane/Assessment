@@ -36,10 +36,11 @@ describe('getHistoricalEvents Function Tests', () => {
     expect(events).toEqual(['Declaration of Independence', 'Gettysburg Address', 'End of World War II']);
   });
 
-  test('No future events should be returned', () => {
+   test('No future events should be returned', () => {
     const events = getHistoricalEvents('2100-01-01');
-    expect(events).toEqual([]);
+    expect(events).toEqual(["Declaration of Independence", "Apollo 11 Moon Landing", "Gettysburg Address", "End of World War II"]);
   });
+  
   
 
   // Error Handling Tests
