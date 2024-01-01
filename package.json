@@ -1,0 +1,16 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "historical-events-test",
+  "version": "1.0.0",
+  "main": "getHistoricalEvents.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
